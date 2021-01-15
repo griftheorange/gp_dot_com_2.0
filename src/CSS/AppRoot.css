@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-color:#919dad;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.main-page-content-wrapper {
+  position:relative;
+  top: -30px;
 }
 
 /* START TITLECARD STYLINGS */
@@ -55,3 +62,38 @@
 }
 
 /* END TITLECARD STYLINGS */
+
+/* START GENERAL CARD STYLINGS */
+
+.card-container {
+  width:100%;
+  display:flex;
+  justify-content: center;
+  margin-bottom:1em;
+}
+
+.card-container .card {
+  width:94%;
+  height:100%;
+  background-color:#f2f2f5;
+  border-left: 7px solid #71737d;
+}
+
+  /* BELOW TWO HANDLE SIZING AND POSITIONING OF LABELS FOR CARDS. NOT CLEAN, NEED BETTER IMPLEMENTATION */
+  .card-container .card-label {
+    position: absolute;
+    left:calc(3% - 3.5px);
+    padding:0.4em;
+    top:calc((1em + 22px)*-1);
+    background-color: #303556;
+    color: white;
+  }
+
+  .card-container .card-label h3 {
+    margin-top:0;
+    margin-bottom:0;
+    font-size:22px;
+  }
+  /* END */
+
+/* END GENERAL CARD STYLINGS */

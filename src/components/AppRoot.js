@@ -1,15 +1,18 @@
 import '../CSS/AppRoot.css';
-import titleCard from '../resources/lukas-blazek-mcSDtbWXUZU-unsplash.jpg';
+import TitleCard from './TitleCard';
+import Card from './Card';
 
 function App() {
   return (
     <div className="App">
-      <div className="title-card">
-        <img src={titleCard}></img>
-        <div className='title-container'>
-          <h1 className='title-name'>Griffin Poole</h1>
-          <h2 className='subtitle'>Full Stack Web Developer, Neuroscience BA</h2>
-        </div>
+      <TitleCard/>
+      <div className="main-page-content-wrapper">
+        <Card label="Information">
+          <p>Hello</p>
+        </Card>
+        <Card>
+          <p>Hello 2</p>
+        </Card>
       </div>
     </div>
   );
