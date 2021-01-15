@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+/* START TITLECARD STYLINGS */
+
+.title-card {
+  width:100%;
+  height:auto;
+}
+
+.title-card img {
+  width:100%;
+  height:auto;
+}
+
+.title-card .title-container {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  animation: slideInHeaders ease 2s;;
+}
+
+.title-card .title-name {
+  font-family:Verdana, Helvetica;
+  font-weight:bold; 
+  font-size:5em;
+  margin-bottom:0;
+  margin-top:0;
+  color:#282d3c;
+  text-align:left;
+  text-shadow:3px 3px #5d69789e;
+  animation: fadeInHeaders ease 2s;
+}
+
+.title-card .subtitle {
+  margin-top:0;
+  color:#282d3c;
+  text-align:left;
+  font-size:1.9em;
+  text-shadow:2px 2px #5d6978b5;
+  animation: fadeInHeaders ease 2s;
+}
+
+@keyframes fadeInHeaders {
+  0% {opacity:0}
+  15% {opacity:0}
+  100% {opacity:1}
+}
+
+@keyframes slideInHeaders {
+  0% {top:3em}
+  15% {top:3em}
+  100% {top:5em}
+}
+
+/* END TITLECARD STYLINGS */
