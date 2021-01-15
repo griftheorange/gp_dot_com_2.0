@@ -10,7 +10,7 @@ function App() {
         <Card label="Information">
           <p>Hello</p>
         </Card>
-        <Card>
+        <Card label="Projects">
           <p>Hello 2</p>
         </Card>
       </div>

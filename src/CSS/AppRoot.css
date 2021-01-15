@@ -70,10 +70,17 @@
   display:flex;
   justify-content: center;
   margin-bottom:1em;
+  position:relative
+}
+
+.card-container .card-sizer-centerer {
+  width:94%;
+  display:flex;
+  flex-direction: column;
 }
 
 .card-container .card {
-  width:94%;
+  width:100%;
   height:100%;
   background-color:#f2f2f5;
   border-left: 7px solid #71737d;
@@ -81,17 +88,17 @@
 
   /* BELOW TWO HANDLE SIZING AND POSITIONING OF LABELS FOR CARDS. NOT CLEAN, NEED BETTER IMPLEMENTATION */
   .card-container .card-label {
-    position: absolute;
-    left:calc(3% - 3.5px);
     padding:0.4em;
-    top:calc((1em + 22px)*-1);
     background-color: #303556;
     color: white;
+    text-align: center;
+    width:150px;
   }
 
   .card-container .card-label h3 {
     margin-top:0;
     margin-bottom:0;
+    margin-left:0.3em;
     font-size:22px;
   }
   /* END */
