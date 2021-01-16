@@ -63,7 +63,7 @@ function skillsGenerator(skillHash){
                                                 </>
                                             )}
                                         </div>
-                                        <Divider faded={true}/>
+                                        <Divider faded/>
                                         </>
                                     )
                                 })}
@@ -98,7 +98,7 @@ export default function(props){
                         <span><List.Icon name='globe'/>Website: <a href='http://griffinpoole.com'>griffinpoole.com</a></span>
                     </List.Item>
                 </List>
-                <Divider faded={true} bottomSpacing={"3em"}/>
+                <Divider faded bottomSpacing={"3em"}/>
                 <h2>Résumé <span>{'&'}</span> Social Media</h2>
                 <Divider/>
                 <div className="links">
@@ -149,7 +149,13 @@ export default function(props){
             </div>
             <div id='about-me' className='block'>
                 <h2>About Me</h2>
-                <Divider/>
+                <Divider bottomSpacing="1.5em"/>
+                <p>Hello and Welcome!</p>
+                <Divider faded/>
+                <p>My name is Griffin Poole, and I am a full-stack web developer and software engineer aspiring to enter the wide world of data analysis.</p>
+                <p>I began my career as a Neuroscience Researcher at Temple University and made the switch to coding full-time in October 2019.</p>
+                <p>Since then, I have had the pleasure of working on many projects involving the traversal and analysis of large datasets, GUI development for data manipulation, graph generation, and so much more.</p>
+                <p>I've assembled overviews of some of my personal favorites below. Feel free to have a look!</p>
             </div>
         </div>
     )

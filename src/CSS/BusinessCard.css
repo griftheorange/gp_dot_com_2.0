@@ -114,3 +114,24 @@
 }
 
 /* END SKILLS STYLING */
+/* START ABOUT ME STYLING */
+
+.business-card-content-wrapper #about-me {
+    text-align: left;
+    padding: 0 1em 0 1em;
+    overflow-y:scroll;
+    min-width: 25em;
+    position:relative
+}
+
+.business-card-content-wrapper #about-me h2 {
+    margin: 1em 0 0.5em 0;
+    font-family: Verdana,Helvetica; 
+}
+
+.business-card-content-wrapper #about-me p {
+    font-family: Verdana,Helvetica;
+    font-size:1.2em;
+}
+
+/* END ABOUT ME STYLING */
