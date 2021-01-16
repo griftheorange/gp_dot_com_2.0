@@ -1,5 +1,7 @@
 import '../CSS/AppRoot.css';
 import TitleCard from './TitleCard';
+import BusinessCard from './BusinessCard';
+import ProjectCard from './ProjectCard';
 import Card from './Card';
 
 function App() {
@@ -8,10 +10,13 @@ function App() {
       <TitleCard/>
       <div className="main-page-content-wrapper">
         <Card label="Information">
-          <p>Hello</p>
+          <BusinessCard/>
         </Card>
         <Card label="Projects">
-          <p>Hello 2</p>
+          <ProjectCard/>
+        </Card>
+        <Card label="References">
+          <p>People like, REALLY like me... Like a lot</p>
         </Card>
       </div>
     </div>
