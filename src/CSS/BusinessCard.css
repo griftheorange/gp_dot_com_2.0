@@ -57,11 +57,60 @@
 .business-card-content-wrapper #contact-information .links {
     display:flex;
     width:100%;
-    padding:1.4em 0.3em 0 0.3em
+    padding:2em 0.3em 0 0.3em
 }
 
-/* .business-card-content-wrapper #contact-information .links button {
-    margin:auto;
-} */
-
 /* END CONTACT STYLING */
+
+/* START SKILLS STYLING */
+
+.business-card-content-wrapper #skills {
+    text-align: left;
+    padding: 0 1em 0 1em;
+    overflow-y:scroll;
+    min-width: 25em;
+    position:relative
+}
+
+.business-card-content-wrapper #skills h2 {
+    margin: 1em 0 0.5em 0;
+    font-family: Verdana,Helvetica; 
+}
+
+.business-card-content-wrapper #skills h2 span {
+    font-weight:100;
+}
+
+.business-card-content-wrapper #skills .skills-list {
+    font-size: 1.4em;
+    margin-top: 1em;
+    margin-bottom:2em;
+}
+
+.business-card-content-wrapper #skills .skills-list .sublist {
+    margin-top:1em
+}
+
+.business-card-content-wrapper #skills .skills-list .sublist div {
+    margin: 0 0 0.6em 0;
+}
+
+.business-card-content-wrapper #skills .skills-list .sublist .sublist-item {
+    display:flex;
+    margin-top:0.5em;
+}
+
+.business-card-content-wrapper #skills .skills-list .sublist .sublist-item .sublist-key {
+    max-width:5.2em;
+    min-width:5.2em;
+    text-align:left;
+    font-weight: bold;
+    padding-right:0.5em
+}
+
+.business-card-content-wrapper #skills .skills-list .sublist .sublist-item .sublist-values {
+    border-left: 1px solid #80808042;
+    padding-left: 0.3em
+}
+
+/* END SKILLS STYLING */
