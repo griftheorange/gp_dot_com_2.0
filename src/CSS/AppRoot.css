@@ -15,7 +15,7 @@
 
 .main-page-content-wrapper {
   position:relative;
-  top: -7em;
+  top: -25em;
   animation: fadeInContent ease 3s, slideInContent ease 3s;
 }
 
@@ -66,9 +66,9 @@
 }
 
 @keyframes slideInContent {
-  0% {top:-25em}
-  33% {top:-25em}
-  100% {top:-7em}
+  0% {top:-35em}
+  33% {top:-35em}
+  100% {top:-25em}
 }
 
 @keyframes fadeInHeaders {
