@@ -8,6 +8,7 @@
 .business-card-content-wrapper .business-card-sub-section {
     display:flex;
     border-bottom: 3px solid #80808080;
+    height:50%;
 }
 
 .business-card-content-wrapper .block {
@@ -74,10 +75,10 @@
 .business-card-content-wrapper #skills {
     text-align: left;
     padding: 0 1em 0 1em;
-    overflow-y:scroll;
     min-width: 25em;
-    height: 50%;
-    position:relative
+    position:relative;
+    display:flex;
+    flex-direction: column;
 }
 
 .business-card-content-wrapper #skills h2 {
@@ -91,12 +92,32 @@
 
 .business-card-content-wrapper #skills .skills-list {
     font-size: 1.4em;
+    display: flex;
     margin-top: 1em;
-    margin-bottom:2em;
+    margin-bottom:1em;
+    flex-grow:1;
+    overflow-y: hidden;
+}
+
+.business-card-content-wrapper #skills .skills-list .skills-sub-block:first-child {
+    margin-right:2%;
+}
+
+.business-card-content-wrapper #skills .skills-list .skills-sub-block {
+    width:49%;
+    padding-right:1%;
+    border-right:1px solid grey;
+    overflow-y:scroll;
+}
+
+
+
+.business-card-content-wrapper #skills .skills-list .skills-sub-block h2 {
+    margin-top: 0;
 }
 
 .business-card-content-wrapper #skills .skills-list .sublist {
-    margin-top:1em
+    margin-top:1em;
 }
 
 .business-card-content-wrapper #skills .skills-list .sublist div {
