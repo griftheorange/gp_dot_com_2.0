@@ -18,8 +18,6 @@ function titleGenerator(stringVal){
 function skillsGenerator(skillHash){
     return(
         <>
-            <h2>Skills</h2>
-            <Divider/>
             <List className={'skills-list'}>
                 {Object.entries(skillHash).map((arr) => {
                     let [key, value] = arr;
