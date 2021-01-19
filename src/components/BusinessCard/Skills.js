@@ -1,5 +1,15 @@
+import React, {useState} from 'react'
+
 import Divider from '../Divider'
-import {List} from 'semantic-ui-react'
+import {List, Accordion, Icon} from 'semantic-ui-react'
+
+function handleClick(key, activeIndeces, setActiveIndeces){
+    if(activeIndeces[key]){
+        setActiveIndeces({...activeIndeces, [key]:false})
+    } else {
+        setActiveIndeces({...activeIndeces, [key]:true})
+    }
+}
 
 function titleGenerator(stringVal){
     if(stringVal.includes("&")){
@@ -15,7 +25,7 @@ function titleGenerator(stringVal){
     }
 }
 
-function skillsGenerator(skillHash){
+function skillsGenerator(skillHash, activeIndeces, setActiveIndeces){
     return(
         <>
             <List className={'skills-list'}>
@@ -34,7 +44,38 @@ function skillsGenerator(skillHash){
                                     })}
                                 </List>
                             ) : (
-                                <p>Object</p>
+                                <>
+                                {Object.entries(value).map((arr) => {
+                                    let [key1, value] = arr;
+                                    return (
+                                        <>
+                                        <h3>{key1}</h3>
+                                        <Divider faded/>
+                                        <Accordion>
+                                            {Object.entries(value).map((arr, index) => {
+                                                let [key2, value] = arr;
+                                                let key = key1+key2;
+                                                return (
+                                                    <>
+                                                    <Accordion.Title onClick={() => {handleClick(key, activeIndeces, setActiveIndeces)}}
+                                                                     active={activeIndeces[key]}>
+                                                                         <Icon name="dropdown"/>{key2}
+                                                    </Accordion.Title>
+                                                    <Accordion.Content active={activeIndeces[key]}>
+                                                        {value.map((item) => {
+                                                            return (
+                                                                <div className='dropdown-entry'>{item}</div>
+                                                            )
+                                                        })}
+                                                    </Accordion.Content>
+                                                    </>
+                                                )
+                                            })}
+                                        </Accordion>
+                                        </>
+                                    )
+                                })}
+                                </>
                             )}
                         </div>
                     )
@@ -45,16 +86,17 @@ function skillsGenerator(skillHash){
 }
 
 export default function(){
+    let [activeIndeces, setActiveIndeces] = useState({});
     return (
         <div id='skills' className='block'>
             {skillsGenerator({
-                "Professional":{
-                    "Web & Software Developemnt":{
+                "Professional Skills":{
+                    "Web & Software Development":{
                         "Java":["Oracle Certified Java Associate", "Spring Boot", "Spring REST", "Spring DATA/ORM/JDBC"],
                         "C#":[".NET Core", "ASP.NET", "Entity Framework"],
                         "Javascript":["React", "Angular", "Node.js"],
-                        "Ruby":["Rails", "Sinatra"],
                         "Python":["Flask", "Pandas"],
+                        "Ruby":["Rails", "Sinatra"],
                         "SQL":["MySQL", "SQLite", "Postgresql"],
                         "HTML":["HTML5"]
                     },
@@ -64,13 +106,13 @@ export default function(){
                         "Ruby":["Active Record"]
                     }
                 },
-                "Soft Skills":["Strong Passion for Data Visualization", 
+                "Education":["Strong Passion for Data Visualization", 
                                 "Flatiron School Graduate of Software Engineering", 
                                 "Rutgers BA in Cell Biology and Neuroscience",
                                 "Excellent Communication Skills",
                                 "Very Strong Organization Skills",
                                 "Highly Personable"]
-            })}
+            }, activeIndeces, setActiveIndeces)}
         </div>
     )
 }

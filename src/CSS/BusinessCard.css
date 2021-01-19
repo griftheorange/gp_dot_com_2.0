@@ -1,7 +1,7 @@
 .business-card-content-wrapper {
     display:flex;
     flex-direction: column;
-    height:60em;
+    height:62em;
     overflow: hidden;
 }
 
@@ -21,8 +21,8 @@
 
 .business-card-content-wrapper #profile-pic {
     padding:1em;
-    min-width:27em;
-    max-width:27em;
+    min-width:28em;
+    max-width:28em;
 }
 
 .business-card-content-wrapper #profile-pic img {
@@ -40,8 +40,8 @@
 .business-card-content-wrapper #contact-information {
     text-align: left;
     padding: 0 1em 0 1em;
-    min-width: 27em;
-    max-width:27em;
+    min-width: 28em;
+    max-width:28em;
 }
 
 .business-card-content-wrapper #contact-information h2 {
@@ -54,18 +54,18 @@
 }
 
 .business-card-content-wrapper #contact-information .contact-list {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-top: 1em;
 }
 
 .business-card-content-wrapper #contact-information .contact-list .item {
-    margin-top: 0.5em
+    margin-top: 1.3em
 }
 
 .business-card-content-wrapper #contact-information .links {
     display:flex;
     width:100%;
-    padding:2em 0.3em 0 0.3em
+    padding:1.5em 0.3em 0 0.3em
 }
 
 /* END CONTACT STYLING */
@@ -114,6 +114,30 @@
 
 .business-card-content-wrapper #skills .skills-list .skills-sub-block h2 {
     margin-top: 0;
+}
+
+.business-card-content-wrapper #skills .skills-list .skills-sub-block h3 {
+    margin-top:0.5em;
+    margin-bottom:0.3em;
+    /* font-size: 0.8em; */
+}
+
+.business-card-content-wrapper #skills .skills-list .skills-sub-block .accordion.ui .title {
+    padding-bottom:0;
+    padding-top:0.5em;
+    font-size:0.8em;
+    font-weight: bold;
+    color:#000000b8;
+}
+
+.business-card-content-wrapper #skills .skills-list .skills-sub-block .accordion.ui .active.content {
+    border-bottom: 1px solid #80808024;
+}
+
+.business-card-content-wrapper #skills .skills-list .skills-sub-block .dropdown-entry {
+    font-size:0.8em;
+    margin-left:1.75em;
+    margin-bottom: 0.2em;
 }
 
 /* END SKILLS STYLING */
