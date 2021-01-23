@@ -19,6 +19,12 @@
   animation: fadeInContent ease 3s, slideInContent ease 3s;
 }
 
+@media (max-width:850px){
+  .main-page-content-wrapper {
+    top:-5em;
+  }
+}
+
 /* START TITLECARD STYLINGS */
 
 .title-card {
@@ -38,6 +44,12 @@
   animation: slideInHeaders ease 2s;;
 }
 
+@media (max-width:850px){
+  .title-card .title-container {
+    left: 3%;
+  }
+}
+
 .title-card .title-name {
   font-family:Verdana, Helvetica;
   font-weight:bold; 
@@ -50,6 +62,12 @@
   animation: fadeInHeaders ease 2s;
 }
 
+@media (max-width:850px){
+  .title-card .title-name {
+    font-size: 3em;
+  }
+}
+
 .title-card .subtitle {
   margin-top:0;
   color:#282d3c;
@@ -57,6 +75,12 @@
   font-size:1.9em;
   text-shadow:2px 2px #5d6978b5;
   animation: fadeInHeaders ease 2s;
+}
+
+@media (max-width:850px){
+  .title-card .subtitle {
+    font-size: 1.3em;
+  }
 }
 
 @keyframes fadeInContent {

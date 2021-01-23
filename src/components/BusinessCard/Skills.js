@@ -80,7 +80,7 @@ export default function(){
             {skillsGenerator({
                 "Professional Skills":{
                     "Web & Software Development":{
-                        "Java":["Oracle Certified Java Associate", "Spring Boot", "Spring REST", "Spring DATA/ORM/JDBC"],
+                        "Java":["Oracle Certified Java SE 8 Associate", "Spring Boot", "Spring REST", "Spring DATA/ORM/JDBC"],
                         "C#":[".NET Core", "ASP.NET", "Entity Framework"],
                         "Javascript":["React", "Angular", "Node.js"],
                         "Python":["Flask", "Pandas"],
@@ -101,23 +101,23 @@ export default function(){
                 },
                 "Education":{
                     "Oracle":{
-                        "Oracle Certified Java SE 8 Associate: 1Z0-808":[]
+                        "Oracle Certified Java SE 8 Associate: 1Z0-808":["Java Fundamentals", "Encapsulation", "Inheritance", "Collections, Calendar, String APIs", "Exception Handling"]
                     },
                     "Infosys":{
-                        "Infosys Certified Java Developer":[],
-                        "Infosys Certified .NET Developer":[],
-                        "Infosys Azure Services Trained":[]
+                        "Infosys Spring Developer":["Spring", "Spring Boot", "Spring Data/ORM/JDBC", "Spring REST"],
+                        "Infosys Certified Java Developer":["Java Fundamentals", "Encapsulation", "Inheritance", "Exception Handling"],
+                        "Infosys Certified .NET Developer":["C#", ".NET Core", "ASP.NET"],
+                        "Infosys Azure Services":["Azure Cloud Services", "Azure Devops"],
+                        "Frontend Development":["React", "Angular", "Bootstrap"]
                     },
                     "Flatiron":{
-                        "Ruby":[],
-                        "Javascript":[],
-                        "HTML/CSS":[]
+                        "Ruby Backend Development":["Active Record", "Sinatra", "Ruby on Rails"],
+                        "Frontend Development":["ES6", "React", "HTML5", "CSS"]
                     },
                     "Rutgers":{
-                        "Bachelors in Cell Biology and Neuroscience":[],
-                        "Undergraduate Research Experience":[],
-                        "Departmental Honors":[],
-                        "Rutgers TKD Club Treasurer":[]
+                        "Bachelors in Cell Biology and Neuroscience":["Intro to Computer Science", "Statistics for Research", "Applied Clinical Electrophysiology", "Advanced Neurobio", "Molecular Genetics", "Histology", "Advanced Developmental Bio", "Organic Chemistry", "Honors Physics", "Calculus", "3.685 GPA"],
+                        "Undergraduate Research Experience":["Tuberous Sclerosis Complex Research - D'Arcangelo Lab", "Orexin and Drug Addiction - Aston-Jones Lab"],
+                        "Rutgers TKD Club Treasurer":["Funds Management", "Dues Collection", "Tournament Fee Allocation", "Tournament Transport Organization"]
                     }
                     
                 }

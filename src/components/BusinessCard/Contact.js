@@ -4,7 +4,7 @@ import {List, Button, Icon} from 'semantic-ui-react'
 export default function(){
     return(
         <div id='contact-information' className='block'>
-            <h2>Contact</h2>
+            <h2>Contact Details</h2>
             <Divider/>
             <List className={'contact-list'}>
                 <List.Item>
