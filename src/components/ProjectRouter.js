@@ -139,7 +139,7 @@ export default function(props){
     }
     return (
         <Card label="home" history={props.history}>
-            <ProjectPage page={projectPages[props.match.params.name]} history={props.history}/>
+            <ProjectPage page={projectPages[props.match.params.name]}/>
         </Card>
     )
 }
