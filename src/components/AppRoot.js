@@ -1,25 +1,28 @@
 import '../CSS/AppRoot.css';
-import TitleCard from './TitleCard';
-import BusinessCard from './BusinessCard';
-import ProjectCard from './ProjectCard';
-import Card from './Card';
+import TitleCard from './SupportComponents/TitleCard';
+import HomePage from './Pages/HomePage'
+import ProjectRouter from './ProjectRouter'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <TitleCard/>
-      <div className="main-page-content-wrapper">
-        <Card label="Information">
-          <BusinessCard/>
-        </Card>
-        <Card label="Projects">
-          <ProjectCard/>
-        </Card>
-        <Card label="References">
-          <p>People like, REALLY like me... Like a lot</p>
-        </Card>
+    <Router>
+      <div className="App">
+        <TitleCard/>
+        <div className="main-page-content-wrapper">
+          <Switch>
+            <Route exact path='/' component={HomePage}/>
+            <Route path='/project_overview/:name' component={ProjectRouter}/>
+            <Route path='/' component={HomePage}/>
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

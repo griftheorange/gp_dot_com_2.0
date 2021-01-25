@@ -31,7 +31,6 @@ function skillsGenerator(skillHash, activeIndeces, setActiveIndeces){
             <List className={'skills-list'}>
                 {Object.entries(skillHash).map((arr) => {
                     let [key, value] = arr;
-                    console.log(key)
                     return (
                         <div className='skills-sub-block'>
                             {titleGenerator(key)}
@@ -80,7 +79,6 @@ function accordionSkillsGenerator(skillHash, activeIndeces, setActiveIndeces){
             <List className={'skills-list'}>
                 {Object.entries(skillHash).map((arr) => {
                     let [key, value] = arr;
-                    console.log(key)
                     return (
                         <Accordion>
                             <div className='skills-sub-block'>

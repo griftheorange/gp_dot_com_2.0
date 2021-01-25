@@ -1,4 +1,4 @@
-import '../CSS/BusinessCard.css'
+import '../../CSS/BusinessCard.css'
 
 import React,{useState} from 'react'
 

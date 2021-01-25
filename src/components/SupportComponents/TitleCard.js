@@ -1,4 +1,4 @@
-import titleCardImg from '../resources/titleImage.jpg';
+import titleCardImg from '../../resources/titleImage.jpg';
 
 export default function(){
     return (

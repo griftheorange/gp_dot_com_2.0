@@ -1,4 +1,4 @@
-import profilePic from '../../resources/profilePicture.JPG'
+import profilePic from '../../../resources/profilePicture.JPG'
 
 export default function(){
     return(
