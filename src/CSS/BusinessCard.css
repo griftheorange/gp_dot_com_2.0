@@ -43,11 +43,17 @@
 }
 /*END Less than 1030px width layout adjustments*/
 
-/*Less than 415px width layout adjustments*/
-@media (max-width:1030px){
-    
+/* Less than 750px width layout adjustments */
+@media (max-width:750px) {
+    .business-card-content-wrapper .business-card-sub-section:first-child {
+        flex-direction: column;
+    }
+
+    .business-card-content-wrapper .block {
+        border:none;
+    }
 }
-/*END Less than 415px width layout adjustments*/
+/* END Less than 750px width layout adjustments */
 
 /* START PROFILE PIC STYLING */
 
@@ -55,6 +61,16 @@
     padding:1em;
     min-width:25em;
     max-width:25em;
+}
+
+@media (max-width:750px){
+    .business-card-content-wrapper #profile-pic{
+        max-width: none;
+        min-width: 290px;
+        margin:auto;
+        width:60%;
+        height:auto
+    }
 }
 
 .business-card-content-wrapper #profile-pic img {
@@ -138,6 +154,18 @@
     }
 }
 
+@media (max-width:750px){
+    .business-card-content-wrapper #contact-information .links{
+        padding:1.5em 10% 1.5em 10%
+    }
+}
+
+@media (max-width:400px){
+    .business-card-content-wrapper #contact-information .links{
+        padding:1.5em 3% 1.5em 3%
+    }
+}
+
 /* END CONTACT STYLING */
 
 /* START SKILLS STYLING */
@@ -175,6 +203,12 @@
     overflow-y: hidden;
 }
 
+@media (max-width:750px){
+    .business-card-content-wrapper #skills .skills-list{
+        flex-direction: column;
+    }
+}
+
 .business-card-content-wrapper #skills .skills-list .skills-sub-block:first-child {
     margin-right:2%;
 }
@@ -201,6 +235,16 @@
 @media (max-width:1030px) {
     .business-card-content-wrapper #skills .skills-list .skills-sub-block {
         overflow-y: auto;
+    }
+}
+
+@media (max-width:750px){
+    .business-card-content-wrapper #skills .skills-list .skills-sub-block{
+        width:100%;
+        padding-right: 0;
+        font-size: 1em;
+        border-right:none;
+        margin-bottom: 1.5em;
     }
 }
 
@@ -254,8 +298,15 @@
         overflow-y: visible;
         position: static;
         flex-grow: 1;
-        padding: 0 2em 2em 1em;
+        padding: 0 2em 2em 2em;
         border-bottom: 3px solid #80808080;
+    }
+}
+
+@media (max-width:750px){
+    .business-card-content-wrapper #about-me {
+        padding: 0 2em 1em 1em;
+        border-bottom: none;
     }
 }
 
@@ -267,6 +318,12 @@
 .business-card-content-wrapper #about-me p {
     font-family: Verdana,Helvetica;
     font-size:1.2em;
+}
+
+@media (max-width:1030px){
+    .business-card-content-wrapper #about-me p {
+        padding-left:1em;
+    }
 }
 
 /* END ABOUT ME STYLING */
