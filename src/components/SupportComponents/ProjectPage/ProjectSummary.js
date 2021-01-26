@@ -4,7 +4,7 @@ export default function(props){
     return (
         <div className="summary">
             <h3>Summary</h3>
-            <Divider topSpacing="1em" bottomSpacing="1em"/>
+            <Divider topSpacing="1em" bottomSpacing="1em" faded/>
             {props.summaryBlock.split("\n").map((paragraph) => {
                 return (
                     <p>{paragraph}</p>

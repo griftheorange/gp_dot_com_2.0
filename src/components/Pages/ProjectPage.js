@@ -1,8 +1,9 @@
 import '../../CSS/ProjectPage.css'
 
 import ProjectDetails from '../SupportComponents/ProjectPage/ProjectDetails';
-import ProjectSummary from '../SupportComponents/ProjectPage/ProjectSummary'
-import Divider from '../SupportComponents/Divider'
+import ProjectSummary from '../SupportComponents/ProjectPage/ProjectSummary';
+import ProjectSettup from '../SupportComponents/ProjectPage/ProjectSettup';
+import Divider from '../SupportComponents/Divider';
 
 export default function(props){
     console.log(props.page)
@@ -15,15 +16,12 @@ export default function(props){
                     <img src={props.page.animationBlock}/>
                 </div>
             </div>
-            <Divider topSpacing="1em" bottomSpacing="1em" faded/>
+            <Divider topSpacing="1em" bottomSpacing="1em"/>
             <div className="summary-settup-wrapper">
                 <ProjectSummary summaryBlock={props.page.summaryBlock}/>
-                <div className="settup">
-                    <h3>Settup</h3>
-                    <Divider topSpacing="1em" bottomSpacing="1em"/>
-                    {/* {Object.entries()} */}
-                </div>
+                <ProjectSettup settupBlock={props.page.settupBlock}/>
             </div>
+            <Divider topSpacing="1em" bottomSpacing="1em"/>
         </div>
     )
 }

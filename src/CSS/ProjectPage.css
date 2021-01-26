@@ -105,7 +105,7 @@
 
 .project-page-content-wrapper .summary-settup-wrapper {
     display:flex;
-    /* max-height: 600px; */
+    max-height: 500px;
 }
 
 .project-page-content-wrapper .summary-settup-wrapper div:first-child {
@@ -116,7 +116,7 @@
     width:calc((100% - 1em) / 2);
     padding:1em;
     border-left:3.5px solid #9692a0;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 
 .project-page-content-wrapper .summary-settup-wrapper h3 {
@@ -130,9 +130,31 @@
 
 .project-page-content-wrapper .summary-settup-wrapper .summary p {
     font-size: 1.2em;
-    font-family: Arial,Helvetica,sans-serif;
     color: #7d7d7d;
     text-shadow: 0.5px 0.5px #3a3a56;
+}
+
+.project-page-content-wrapper .summary-settup-wrapper .settup h4 {
+    color: #47475f;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    text-shadow: 1px 1px #b1b1b1;
+}
+
+.project-page-content-wrapper .summary-settup-wrapper .settup ol {
+    margin-top:0.4em;
+    padding-inline-start: 2em;
+    margin-bottom:1.5em
+}
+
+.project-page-content-wrapper .summary-settup-wrapper .settup li {
+    font-size: 1.2em;
+    color: #7d7d7da8;
+    text-shadow: 0.5px 0.5px #4d4d5be8;
+    margin-bottom:0.5em
 }
 
 /* END Summary Settup Styling */

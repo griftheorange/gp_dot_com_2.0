@@ -1,6 +1,6 @@
 class SettupBlocks {
     static seisMix = {
-        'frontend':{
+        'Frontend':{
             'steps':[
                 'Uses Node Package Manager',
                 'Clone the github repo to a local directory',
@@ -10,7 +10,7 @@ class SettupBlocks {
                 'Optionally, run "npm build" for minified build files, then run serve -s build to boot up'
             ]
         },
-        'backend':{
+        'Backend':{
             'steps':[
                 'Uses Ruby Bundler',
                 'Clone the github repo to a local directory',
@@ -29,7 +29,7 @@ class SettupBlocks {
     }
 
     static budgetWeb = {
-        'frontend':{
+        'Frontend':{
             'steps':[
                 'Uses Node Package Manager',
                 'Clone the github repo to a local directory',
@@ -42,7 +42,7 @@ class SettupBlocks {
                 'After initializing, you are set!'
             ]
         },
-        'backend':{
+        'Backend':{
             'steps':[
                 'Uses Python (Preferably with Anaconda)',
                 'Clone the github repo to a local directory',
@@ -56,7 +56,7 @@ class SettupBlocks {
     }
 
     static gpCom = {
-        'frontend':{
+        'Frontend':{
             'steps':[
                 'Uses Node Package Manager',
                 'Clone the github repo to a local directory',
@@ -69,7 +69,7 @@ class SettupBlocks {
     }
 
     static topoGlobe = {
-        'frontend':{
+        'Frontend':{
             'steps':[
                 'Uses Node Package Manager',
                 'Clone the github repo to a local directory',
@@ -82,14 +82,14 @@ class SettupBlocks {
     }
 
     static graphJS = {
-        'frontend':{
+        'Frontend':{
             'steps':[
                 'Clone the github repo to a local directory',
                 'Find the index.html file in the pulled repo',
                 "Click and drag this file into your web browser's URL bar"
             ]
         },
-        'backend':{
+        'Fackend':{
             'steps':[
                 'Uses Ruby Bundler, Cloudinary Account',
                 'Clone the github repo to a local directory',
@@ -107,7 +107,7 @@ class SettupBlocks {
     }
 
     static javaTodo = {
-        'desktop':{
+        'Desktop':{
             'steps':[
                 'Uses the IntelliJ IDEA Development kit',
                 'Clone the github repo to a local directory',
@@ -123,7 +123,7 @@ class SettupBlocks {
     }
 
     static CLIDnD = {
-        'frontend':{
+        'Frontend':{
             'steps':[
                 'Uses Ruby Bundler',
                 'Clone the repo to a local directory',
