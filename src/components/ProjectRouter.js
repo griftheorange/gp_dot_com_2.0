@@ -6,19 +6,21 @@ import FeaturesBlock from './SupportComponents/TextClasses/FeaturesBlock'
 import ComponentsBlock from './SupportComponents/TextClasses/ComponentsBlock'
 import ProjectPage from './Pages/ProjectPage'
 
+import budgetPyAnimation1 from '../resources/ProjectAnimations/budgetPyAnimation1.gif'
+
 export default function(props){
     const projectPages = {
         "Budget.web":{
             "detailsBlock":{
                 "title":"Budget.web",
                 "description":"Personal Finance App",
-                "frontendLink":null,
-                "backendLink":null,
+                "frontendLink":'https://github.com/griftheorange/budget_web_py_frontend',
+                "backendLink":'https://github.com/griftheorange/budget_web_py_backend',
                 "videoDemo":null,
                 "blogArticle":null,
                 "devTools":DevTools.budgetWeb
             },
-            "animaitonBlock":null,
+            "animationBlock":budgetPyAnimation1,
             "summaryBlock":TextBlocks.budgetWeb,
             "settupBlock":SettupBlocks.budgetWeb,
             "featuresBlock":FeaturesBlock.budgetWeb,
@@ -34,7 +36,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.seisMix
             },
-            "animaitonBlock":null,
+            "animationBlock":null,
             "summaryBlock":TextBlocks.seisMix,
             "settupBlock":SettupBlocks.seisMix,
             "featuresBlock":FeaturesBlock.seisMix,
@@ -50,7 +52,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.gpCom
             },
-            "animaitonBlock":null,
+            "animationBlock":null,
             "summaryBlock":TextBlocks.gpCom,
             "settupBlock":SettupBlocks.gpCom,
             "featuresBlock":FeaturesBlock.gpCom,
@@ -66,7 +68,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.topoGlobe
             },
-            "animaitonBlock":null,
+            "animationBlock":null,
             "summaryBlock":TextBlocks.topoGlobe,
             "settupBlock":SettupBlocks.topoGlobe,
             "featuresBlock":FeaturesBlock.topoGlobe,
@@ -82,7 +84,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.graphJS
             },
-            "animaitonBlock":null,
+            "animationBlock":null,
             "summaryBlock":TextBlocks.graphJS,
             "settupBlock":SettupBlocks.graphJS,
             "featuresBlock":FeaturesBlock.graphJS,
@@ -98,7 +100,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.CLIDnD
             },
-            "animaitonBlock":null,
+            "animationBlock":null,
             "summaryBlock":TextBlocks.CLIDnD,
             "settupBlock":SettupBlocks.CLIDnD,
             "featuresBlock":FeaturesBlock.CLIDnD,
@@ -114,7 +116,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.pythonRogue
             },
-            "animaitonBlock":null,
+            "animationBlock":null,
             "summaryBlock":TextBlocks.pythonRogue,
             "settupBlock":SettupBlocks.pythonRogue,
             "featuresBlock":FeaturesBlock.pythonRogue,
@@ -130,7 +132,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.javaTodo
             },
-            "animaitonBlock":null,
+            "animationBlock":null,
             "summaryBlock":TextBlocks.javaTodo,
             "settupBlock":SettupBlocks.javaTodo,
             "featuresBlock":FeaturesBlock.javaTodo,

@@ -1,0 +1,138 @@
+.project-page-content-wrapper {
+    width:100%;
+    padding-top:0;
+    padding:1em;
+    text-align: left;
+    font-family: Arial,Helvetica,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* START Description Animation Styling */
+
+.project-page-content-wrapper .description-animation-wrapper {
+    width:100%;
+    display:flex;
+}
+
+.project-page-content-wrapper .description-animation-wrapper .animation-block {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding:0.5em;
+    border-right:4px solid #100b5742;
+    border-left: 4px solid #100b5742;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea6b;
+} 
+
+.project-page-content-wrapper .description-animation-wrapper .animation-block img {
+    width:100%;
+    margin:auto
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description {
+    width:30%;
+    padding-right:1em;
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description h2.title {
+    font-family:Verdana, Helvetica;
+    font-weight:bold; 
+    font-size:3em;
+    margin-bottom:0;
+    margin-top:0;
+    color:#282d3c;
+    text-shadow:3px 3px #5d69789e;
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description h3.subtitle {
+    font-weight: 100;
+    margin-top: 0.3em;
+    text-shadow: 0.5px 0.5px #3a3a56;
+    font-size: 1.5em;
+    color: #b1b1b1;
+    margin-bottom: .25em;
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description h4 {
+    font-size: 1.1em;
+    margin-bottom: 0;
+    font-weight: 100;
+    margin-top: 0;
+    text-shadow: 0.5px 0.5px #3a3a56;
+    color: #9a9191;
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description .devtools-wrapper {
+    margin-top:1em;
+    width:80%;
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description .devtools-wrapper h3 {
+    font-family:Verdana, Helvetica;
+    font-weight:bold; 
+    font-size:1.5em;
+    margin-bottom:0.5em;
+    margin-top:0;
+    color:#282d3c;
+    text-shadow:2px 2px #5d697857;
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description .devtools-wrapper h4 {
+    margin-bottom: .5em;
+    font-weight: 100;
+    font-size: 1.3em;
+    color: #a7a7a7;
+    text-shadow: 0.5px 0.5px #3a3a56;
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description .devtools-wrapper .list {
+    margin:1em 0 1em 0;
+    padding-left:1em
+}
+
+.project-page-content-wrapper .description-animation-wrapper .description .devtools-wrapper .list .item {
+    margin-bottom:0.1em;
+    font-size:1.2em;
+    color: #909090;
+    text-shadow: 0.5px 0.5px #3a3a56;
+}
+
+/* END Description Animation Styling */
+
+/* START Summary Settup Styling */
+
+.project-page-content-wrapper .summary-settup-wrapper {
+    display:flex;
+    /* max-height: 600px; */
+}
+
+.project-page-content-wrapper .summary-settup-wrapper div:first-child {
+    margin-right:1em;
+}
+
+.project-page-content-wrapper .summary-settup-wrapper .summary,.settup {
+    width:calc((100% - 1em) / 2);
+    padding:1em;
+    border-left:3.5px solid #9692a0;
+    /* overflow-y: scroll; */
+}
+
+.project-page-content-wrapper .summary-settup-wrapper h3 {
+    font-family: Verdana,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size:1.9em;
+    color: #3a3a56;
+    margin-bottom: 0;
+    text-shadow: 2px 2px #b1b1b1;
+}
+
+.project-page-content-wrapper .summary-settup-wrapper .summary p {
+    font-size: 1.2em;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #7d7d7d;
+    text-shadow: 0.5px 0.5px #3a3a56;
+}
+
+/* END Summary Settup Styling */
