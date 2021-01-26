@@ -8,6 +8,8 @@ export default function(props){
             <h3 className="subtitle">{detailsBlock.description}</h3>
             {detailsBlock.frontendLink ? <h4>Frontend - <a href={detailsBlock.frontendLink}>Github</a></h4> : null}
             {detailsBlock.backendLink ? <h4>Backend - <a href={detailsBlock.backendLink}>Github</a></h4> : null}
+            {detailsBlock.videoDemo ? <h4><a href={detailsBlock.videoDemo}>Demo</a></h4> : null}
+            {detailsBlock.blogArticle ? <h4><a href={detailsBlock.blogArticle}>Blog Article</a></h4> : null}
             <Divider topSpacing='1em'/>
             <div className='devtools-wrapper'>
                 <h3>Dev Tools</h3>

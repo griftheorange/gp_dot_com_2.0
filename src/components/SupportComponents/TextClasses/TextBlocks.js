@@ -29,7 +29,7 @@ class TextBlocks {
 
     static topoGlobe = `
     TopoGlobe: An app for plotting geographic events in a responsive, interactive React environment.
-    I originally put together TopoGlobe as a practice piece for rendering and animating geographic data in a React setting. By the end, it became a very useful proof-of-concept project, and an implementation of it can be seen in my <a href='/project_overview/SeisMix'>SeisMix Project</a>.
+    I originally put together TopoGlobe as a practice piece for rendering and animating geographic data in a React setting. By the end, it became a very useful proof-of-concept project, and an implementation of it can be seen in my SeisMix Project.
     The main goal of this project was to combine functionality of three separate JS libraries (topojson-client, D3.js, and React) into a clean, easy-to-replicate implementation. My aim then was to render an animated, interactive globe with data features that contained all the power and responsiveness of React components, with the file handling and data manipulation being performed by the specialized D3 and topojson libraries.
     Topojson files, a compact means of storing geogrpahic data, were converted to geojson features interpretable by the D3 library. The D3 library then was able to manipulate and project the geojson features to path data interpretable by path elements in React. Lastly, sets of React components were generated from individual map features, and provided with listeners for hover and click events.
     Lastly, by setting the D3 projection's 'rotation' setting dependent on React state, animation for the globe was made easily interfaceable with React's toolkit.
@@ -64,7 +64,7 @@ class TextBlocks {
 
     static pythonRogue = `
     Python Roguelike: A desktop roguelike dungeon crawler written with the Libtcod Library.
-    This application was developed in reference to the Roguelike TCOD Tutorial <a href='http://rogueliketutorials.com/tutorials/tcod/'>here</a>. This tutorial walks you through the construction of the roguelike game with modern, good coding practices in Python. I highly extend my recommendations of this tutorial for a fun first step into python.
+    This application was developed in reference to the Roguelike TCOD Tutorial. This tutorial walks you through the construction of the roguelike game with modern, good coding practices in Python. I highly extend my recommendations of this tutorial for a fun first step into python.
     The application builds a procedurally generated dungeon by carving out rooms and hallways, and filling these rooms with entities. Entities can include monsters, items, stairs, etc.
     Different entities have different behaviors produced through composition. The Engine iterates through all entities present on the map repeatedly, executing code based on the entities specific needs. For example, items and stairs do nothing, monsters move towards players or attack, and players are prompted for input on their turn.
     Items and equipment can also produce their own functionality. Items can be used to cast spells, equipped for stat increases and, so on. Additionally, combat can level up a player, and stats can be increased for further combat capability.
