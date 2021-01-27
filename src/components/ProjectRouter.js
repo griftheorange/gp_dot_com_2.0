@@ -7,6 +7,13 @@ import ComponentsBlock from './SupportComponents/TextClasses/ComponentsBlock'
 import ProjectPage from './Pages/ProjectPage'
 
 import budgetPyAnimation1 from '../resources/ProjectAnimations/budgetPyAnimation1.gif'
+import CLIDnDAnimation1 from '../resources/ProjectAnimations/CLIDnDAnimation1.gif'
+import GPComAnimation1 from '../resources/ProjectAnimations/gpComAnimation1.gif'
+import graphJSAnimation1 from '../resources/ProjectAnimations/graphJSAnimation1.gif'
+import javaTodoAnimation1 from '../resources/ProjectAnimations/javaTodoAnimation1.gif'
+import pythonRogueAnimation1 from '../resources/ProjectAnimations/pythonRogueAnimation1.gif'
+import smAnimation1 from '../resources/ProjectAnimations/smAnimation1.gif'
+import topoGlobeAnimation1 from '../resources/ProjectAnimations/topoGlobeAnimation1.gif'
 
 export default function(props){
     const projectPages = {
@@ -36,7 +43,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.seisMix
             },
-            "animationBlock":null,
+            "animationBlock":smAnimation1,
             "summaryBlock":TextBlocks.seisMix,
             "settupBlock":SettupBlocks.seisMix,
             "featuresBlock":FeaturesBlock.seisMix,
@@ -52,7 +59,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.gpCom
             },
-            "animationBlock":null,
+            "animationBlock":GPComAnimation1,
             "summaryBlock":TextBlocks.gpCom,
             "settupBlock":SettupBlocks.gpCom,
             "featuresBlock":FeaturesBlock.gpCom,
@@ -68,7 +75,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.topoGlobe
             },
-            "animationBlock":null,
+            "animationBlock":topoGlobeAnimation1,
             "summaryBlock":TextBlocks.topoGlobe,
             "settupBlock":SettupBlocks.topoGlobe,
             "featuresBlock":FeaturesBlock.topoGlobe,
@@ -84,7 +91,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.graphJS
             },
-            "animationBlock":null,
+            "animationBlock":graphJSAnimation1,
             "summaryBlock":TextBlocks.graphJS,
             "settupBlock":SettupBlocks.graphJS,
             "featuresBlock":FeaturesBlock.graphJS,
@@ -100,7 +107,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.CLIDnD
             },
-            "animationBlock":null,
+            "animationBlock":CLIDnDAnimation1,
             "summaryBlock":TextBlocks.CLIDnD,
             "settupBlock":SettupBlocks.CLIDnD,
             "featuresBlock":FeaturesBlock.CLIDnD,
@@ -116,7 +123,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.pythonRogue
             },
-            "animationBlock":null,
+            "animationBlock":pythonRogueAnimation1,
             "summaryBlock":TextBlocks.pythonRogue,
             "settupBlock":SettupBlocks.pythonRogue,
             "featuresBlock":FeaturesBlock.pythonRogue,
@@ -132,7 +139,7 @@ export default function(props){
                 "blogArticle":null,
                 "devTools":DevTools.javaTodo
             },
-            "animationBlock":null,
+            "animationBlock":javaTodoAnimation1,
             "summaryBlock":TextBlocks.javaTodo,
             "settupBlock":SettupBlocks.javaTodo,
             "featuresBlock":FeaturesBlock.javaTodo,
