@@ -23,6 +23,7 @@ export default function(props){
                 "description":"Personal Finance App",
                 "frontendLink":'https://github.com/griftheorange/budget_web_py_frontend',
                 "backendLink":'https://github.com/griftheorange/budget_web_py_backend',
+                "repo":null,
                 "videoDemo":null,
                 "blogArticle":null,
                 "devTools":DevTools.budgetWeb
@@ -37,9 +38,10 @@ export default function(props){
             "detailsBlock":{
                 "title":"SeisMix",
                 "description":"USGS Seismic Event Tracker",
-                "frontendLink":null,
-                "backendLink":null,
-                "videoDemo":null,
+                "frontendLink":'https://github.com/griftheorange/sm-frontend',
+                "backendLink":'https://github.com/griftheorange/sm-backend',
+                "repo":null,
+                "videoDemo":'https://www.youtube.com/watch?v=fy93QL0LiVM&feature=youtu.be',
                 "blogArticle":null,
                 "devTools":DevTools.seisMix
             },
@@ -53,8 +55,9 @@ export default function(props){
             "detailsBlock":{
                 "title":"GP.com",
                 "description":"Personal Landing Page",
-                "frontendLink":null,
+                "frontendLink":'https://github.com/griftheorange/gp_dot_com',
                 "backendLink":null,
+                "repo":null,
                 "videoDemo":null,
                 "blogArticle":null,
                 "devTools":DevTools.gpCom
@@ -69,10 +72,11 @@ export default function(props){
             "detailsBlock":{
                 "title":"TopoGlobe",
                 "description":"Geographic Plotting in React",
-                "frontendLink":null,
+                "frontendLink":'https://github.com/griftheorange/topojson-test',
                 "backendLink":null,
+                "repo":null,
                 "videoDemo":null,
-                "blogArticle":null,
+                "blogArticle":'https://medium.com/better-programming/topojson-geojson-and-projections-developing-interactive-map-visuals-for-web-apps-79e2d50abb19?source=friends_link&sk=1efcd7cd0a58d2bc38196ac02dc98ef6',
                 "devTools":DevTools.topoGlobe
             },
             "animationBlock":topoGlobeAnimation1,
@@ -85,10 +89,11 @@ export default function(props){
             "detailsBlock":{
                 "title":"Graph.js",
                 "description":"Custom Graph Generator",
-                "frontendLink":null,
-                "backendLink":null,
-                "videoDemo":null,
-                "blogArticle":null,
+                "frontendLink":'https://github.com/griftheorange/graph-JS-frontent',
+                "backendLink":'https://github.com/griftheorange/graph-JS-backend',
+                "repo":null,
+                "videoDemo":'https://youtu.be/ua4csPpWLk8',
+                "blogArticle":'https://medium.com/better-programming/d3-responsive-and-dynamic-visualizations-for-data-and-other-easy-recipes-68e37b451822?source=friends_link&sk=1f369ccf8c1108d2d753e3908f6ec85d',
                 "devTools":DevTools.graphJS
             },
             "animationBlock":graphJSAnimation1,
@@ -103,6 +108,7 @@ export default function(props){
                 "description":"DnD Organizer, Monster Database CLI",
                 "frontendLink":null,
                 "backendLink":null,
+                "repo":'https://github.com/griftheorange/module-one-final-project-guidelines-dumbo-web-102819',
                 "videoDemo":null,
                 "blogArticle":null,
                 "devTools":DevTools.CLIDnD
@@ -119,6 +125,7 @@ export default function(props){
                 "description":"Procedurally Generated Dungeon Crawler",
                 "frontendLink":null,
                 "backendLink":null,
+                "repo":'https://github.com/griftheorange/python_roguelike',
                 "videoDemo":null,
                 "blogArticle":null,
                 "devTools":DevTools.pythonRogue
@@ -135,6 +142,7 @@ export default function(props){
                 "description":"Desktop Task Tracking App",
                 "frontendLink":null,
                 "backendLink":null,
+                "repo":'https://github.com/griftheorange/Java-TodoList',
                 "videoDemo":null,
                 "blogArticle":null,
                 "devTools":DevTools.javaTodo

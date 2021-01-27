@@ -1,29 +1,39 @@
+import budgetPyComponentTree from '../../../resources/ProjectComponentDiagrams/budgetPyComponentTree.png'
+import budgetPyRouteTree from '../../../resources/ProjectComponentDiagrams/budgetPyRouteTree.png'
+import gpComComponentTree from '../../../resources/ProjectComponentDiagrams/gpComComponentTree.png'
+import graphJSComponentTree from '../../../resources/ProjectComponentDiagrams/graphJSComponentTree.png'
+import graphJSRouteTree from '../../../resources/ProjectComponentDiagrams/graphJSRouteTree.png'
+import javaTodoComponentTree from  '../../../resources/ProjectComponentDiagrams/javaTodoComponentTree.png'
+import smComponentTree from '../../../resources/ProjectComponentDiagrams/smComponentTree.png'
+import smRouteTree from '../../../resources/ProjectComponentDiagrams/smRouteTree.png'
+import topoGlobeComponentTree from '../../../resources/ProjectComponentDiagrams/topoGlobeComponentTree.png'
+
 class TextBlocks {
     static seisMix = {
-        'frontend - React Components':null,
-        'backend - Rails Restful Routes':null
+        'Frontend - React Components':smComponentTree,
+        'Backend - Rails Restful Routes':smRouteTree
     }
 
     static budgetWeb = {
-        'frontend - React Components':null,
-        'backend - Flask Custom Routes':null
+        'Frontend - React Components':budgetPyComponentTree,
+        'Backend - Flask Custom Routes':budgetPyRouteTree
     }
 
     static gpCom = {
-        'frontend - React Components':null
+        'Frontend - React Components':gpComComponentTree
     }
 
     static topoGlobe = {
-        'frontend - React Components':null
+        'Frontend - React Components':topoGlobeComponentTree
     }
 
     static graphJS = {
-        'frontend - Javascript Files':null,
-        'backend -  Rails Restful Routes':null
+        'Frontend - Javascript Files':graphJSComponentTree,
+        'Backend -  Rails Restful Routes':graphJSRouteTree
     }
 
     static javaTodo = {
-        'Java Files':null
+        'Java Files':javaTodoComponentTree
     }
 
     static CLIDnD = null

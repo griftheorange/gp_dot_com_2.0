@@ -6,11 +6,11 @@ import './CSS/index.css';
 import { Provider } from 'react-redux';
 import store from './redux/store';
 
-import App from './components/AppRoot';
+import AppRoot from './components/AppRoot';
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <AppRoot />
   </Provider>,
   document.getElementById('root')
 );

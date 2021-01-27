@@ -1,3 +1,37 @@
+import budgetPyAnimation2 from '../../../resources/ProjectAnimations/budgetPyAnimation2.gif'
+import budgetPyAnimation3 from '../../../resources/ProjectAnimations/budgetPyAnimation3.gif'
+import budgetPyAnimation4 from '../../../resources/ProjectAnimations/budgetPyAnimation4.gif'
+import budgetPyAnimation5 from '../../../resources/ProjectAnimations/budgetPyAnimation5.gif'
+import budgetPyAnimation6 from '../../../resources/ProjectAnimations/budgetPyAnimation6.gif'
+
+import CLIDnDAnimation2 from '../../../resources/ProjectAnimations/CLIDnDAnimation2.gif'
+import CLIDnDAnimation3 from '../../../resources/ProjectAnimations/CLIDnDAnimation3.gif'
+import CLIDnDAnimation4 from '../../../resources/ProjectAnimations/CLIDnDAnimation4.gif'
+import CLIDnDAnimation5 from '../../../resources/ProjectAnimations/CLIDnDAnimation5.gif'
+
+import gpComAnimation2 from '../../../resources/ProjectAnimations/gpComAnimation2.gif'
+import gpComAnimation3 from '../../../resources/ProjectAnimations/gpComAnimation3.gif'
+
+import graphJSAnimation2 from '../../../resources/ProjectAnimations/graphJSAnimation2.gif'
+import graphJSAnimation3 from '../../../resources/ProjectAnimations/graphJSAnimation3.gif'
+import graphJSAnimation4 from '../../../resources/ProjectAnimations/graphJSAnimation4.gif'
+import graphJSAnimation5 from '../../../resources/ProjectAnimations/graphJSAnimation5.gif'
+
+import javaTodoAnimation1 from '../../../resources/ProjectAnimations/javaTodoAnimation1.gif'
+
+import pythonRogueAnimation2 from '../../../resources/ProjectAnimations/pythonRogueAnimation2.gif'
+import pythonRogueAnimation3 from '../../../resources/ProjectAnimations/pythonRogueAnimation3.gif'
+import pythonRogueAnimation4 from '../../../resources/ProjectAnimations/pythonRogueAnimation4.gif'
+
+import smAnimation1 from '../../../resources/ProjectAnimations/smAnimation1.gif'
+import smAnimation2 from '../../../resources/ProjectAnimations/smAnimation2.gif'
+import smAnimation3 from '../../../resources/ProjectAnimations/smAnimation3.gif'
+import smAnimation4 from '../../../resources/ProjectAnimations/smAnimation4.gif'
+
+import topoGlobeAnimation2 from '../../../resources/ProjectAnimations/topoGlobeAnimation2.gif'
+import topoGlobeAnimation3 from '../../../resources/ProjectAnimations/topoGlobeAnimation3.gif'
+
+
 class FeaturesBlock {
     static seisMix = {
         'USGS API Queries': {
@@ -7,7 +41,7 @@ class FeaturesBlock {
               'Events are plotted on charts and globe automatically after refresh',
               'All events are clickable, bringing you to a details page'
           ],
-          'animation':null
+          'animation':smAnimation1
         },
         'GlobeView - Geographic Plot':{
           'details':[
@@ -17,7 +51,7 @@ class FeaturesBlock {
               'Globe rotation can be toggled and customized',
               'Changeable map projection'
             ],
-            'animation':null
+            'animation':smAnimation2
           },
           'User Accounts':{
               'details':[
@@ -25,7 +59,7 @@ class FeaturesBlock {
                   'User passwords are fully encrypted on the backend using BCrypt',
                   "User page provides an interface for a user's webpage activity"
               ],
-              'animation':null
+              'animation':smAnimation3
           },
           'Bookmarking and Commenting':{
               'details':[
@@ -34,7 +68,7 @@ class FeaturesBlock {
                   'Users can also provide insights in the comments section of events that they visit',
                   "A user's insights are also tracked on their profile page"
               ],
-              'animation':null
+              'animation':smAnimation4
           }
     }
 
@@ -46,14 +80,14 @@ class FeaturesBlock {
               'Storage files setup on backend, formatted for user',
               'Application also "guesses" categories for user based on any categories in Type column'
           ],
-          'animation':null
+          'animation':budgetPyAnimation2
         },
         'Users can add cards for auto-loading':{
             'details':[
                 'New cards map downloaded file columns to Transaction History, Date and Cost columns',
                 'Once a card is added, CSVs for that card can be loaded in and values will be inserted into the table automatically'
             ],
-            'animation':null
+            'animation':budgetPyAnimation3
         },
         'Custom Transaction Categories':{
             'details':[
@@ -61,7 +95,7 @@ class FeaturesBlock {
                 'These categories help with producing pie charts',
                 'Categories can be added, deleted and/or customized'
             ],
-            'animation':null
+            'animation':budgetPyAnimation4
         },
         'Charts and Graphics':{
             'details':[
@@ -70,7 +104,7 @@ class FeaturesBlock {
                 'The pie chart categories can be customized in the category interface',
                 'Charts provide easy to interpret visuals of finances over time'
             ],
-            'animation':null
+            'animation':budgetPyAnimation5
         },
         'Save, Reload, Export':{
             'details':[
@@ -79,7 +113,7 @@ class FeaturesBlock {
                 'Files can also be exported for download as the same file-types above',
                 'Exported files can be used in other applications!'
             ],
-            'animation':null
+            'animation':budgetPyAnimation6
         }
     }
 
@@ -89,7 +123,7 @@ class FeaturesBlock {
               'My business card with contact information, links to my resume, blog, and social media',
               'Skillset overview and a brief personal statement'
           ],
-          'animation':null
+          'animation':gpComAnimation2
         },
         'Project Portfolio':{
             'details':[
@@ -98,7 +132,7 @@ class FeaturesBlock {
                 'Starred projects are my personal favorites',
                 'As I complete more projects, more cards will be added. Stay tuned!'
             ],
-            'animation':null
+            'animation':gpComAnimation3
         }
     }
 
@@ -109,7 +143,7 @@ class FeaturesBlock {
               'Auto rotation can be toggled on/off',
               'Rotation speeds adjustable'
           ],
-          'animation':null
+          'animation':topoGlobeAnimation2
         },
         'Interactive Map Features': {
             'details':[
@@ -117,7 +151,7 @@ class FeaturesBlock {
                 'Features are only limited by what you can draw',
                 'Any geojson shapes can be drawn on the map (e.g. the red circles) and can be made to respond to events the same way'
             ],
-            'animation':null
+            'animation':topoGlobeAnimation3
         }
     }
 
@@ -129,7 +163,7 @@ class FeaturesBlock {
               'The app automatically parses the file and renders a table for ease-of-viewing',
               'Users can always access old datasets, or delete unneeded ones'
           ],
-          'animation':null
+          'animation':graphJSAnimation2
         },
         'Line Graph Generation': {
           'details':[
@@ -138,7 +172,7 @@ class FeaturesBlock {
               'Users can add any number of series',
               'Columns or Rows can be selected as the values for the x-axis or series'
           ],
-          'animation':null
+          'animation':graphJSAnimation3
         },
         'Bar Chart Generation':{
             'details':[
@@ -147,7 +181,7 @@ class FeaturesBlock {
               'Users can also add multiple series for bar charts',
               'App automatically aggregates categories into sums, and diplays processed data'
             ],
-            'animation':null
+            'animation':graphJSAnimation4
         },
         'Pie Chart Generation':{
             'details':[
@@ -155,7 +189,7 @@ class FeaturesBlock {
                 'Pie charts limited to one series',
                 'Pie chart accepts negative values (in red) and plots them counter to positive values (in green)'
             ],
-            'animation':null
+            'animation':graphJSAnimation5
         }
     }
 
@@ -167,7 +201,7 @@ class FeaturesBlock {
               'Items each get a name, description, and deadline',
               'Items near or past their deadline are colored by the app for user alerts'
           ],
-          'animation':null
+          'animation':javaTodoAnimation1
         }
     }
 
@@ -179,7 +213,7 @@ class FeaturesBlock {
               'Each world can be filled with locations',
               "With these features, DMs can worldbuild and organize prior to sessions"
           ],
-          'animation':null
+          'animation':CLIDnDAnimation2
         },
         'Monster Catalog':{
             'details':[
@@ -187,7 +221,7 @@ class FeaturesBlock {
               'For more compact lists, users can search for monsters by type, challenge rating or name',
               'Once a monster of interest is found, its details can be listed in a print-out or online'
             ],
-            'animation':null
+            'animation':CLIDnDAnimation3
         },
         'Add Monsters to a Location':{
             'details':[
@@ -195,7 +229,7 @@ class FeaturesBlock {
                 'Monsters at a location can be printed in a list',
                 'Also, given a monsters name, you can list locations in this story where that monster appears'
             ],
-            'animation':null
+            'animation':CLIDnDAnimation4
         },
         'DM Utility Features':{
             'details':[
@@ -203,7 +237,7 @@ class FeaturesBlock {
                 `Once drawn, DMs can view the monster's details online or in print-out. Alternatively, they can pass`,
                 'The app also provides a simple d20 Dice Roller'
             ],
-            'animation':null
+            'animation':CLIDnDAnimation5
         }
     }
 
@@ -214,21 +248,21 @@ class FeaturesBlock {
               'Users can reload their last played game if they have exited out in the middle of a session',
               'Enemies, items, weapons and more increase in value the deeper you descend'
           ],
-          'animation':null
+          'animation':pythonRogueAnimation2
         },
         'Items, Equipment, Weapons':{
             'details':[
                 'Weapons, potions and spell scrolls spawn for increased combat efficacy',
                 'Items are stored in a players inventory and can be dropped to clear space'
             ],
-            'animation':null
+            'animation':pythonRogueAnimation3
         },
         'Combat and Level Ups!':{
             'details':[
                 'Users encounter monsters in the dungeon that get harder the deeper you delve',
                 'Defeating monsters in combat earns you experience, which can be used to level up and increase your stats'
             ],
-            'animation':null
+            'animation':pythonRogueAnimation4
         }
     }
 }

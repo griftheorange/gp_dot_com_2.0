@@ -7,7 +7,6 @@ export default function(props){
             <Divider topSpacing="1em" bottomSpacing="1em" faded/>
             {Object.entries(props.settupBlock).map((arr) => {
                 let [key, value] = arr;
-                console.log(value)
                 return (
                     <>
                     <h4>{key}:</h4>

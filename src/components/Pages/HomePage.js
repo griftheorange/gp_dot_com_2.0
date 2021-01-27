@@ -1,6 +1,7 @@
 import Card from '../SupportComponents/Card'
 import BusinessCard from '../SupportComponents/BusinessCard'
 import ProjectCard from '../SupportComponents/ProjectCard'
+import ProjectDetails from '../SupportComponents/ProjectPage/ProjectDetails'
 
 import {useState} from 'react'
 
@@ -69,9 +70,6 @@ export default function(props){
         </Card>
         <Card label="Projects">
             <ProjectCard projects={projects} accordion={mobileMatch} history={props.history}/>
-        </Card>
-        <Card label="References">
-            <p>People like, REALLY like me... Like a lot</p>
         </Card>
         </>
     )
