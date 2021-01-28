@@ -9,6 +9,7 @@ import CLIDnDAnimation3 from '../../../resources/ProjectAnimations/CLIDnDAnimati
 import CLIDnDAnimation4 from '../../../resources/ProjectAnimations/CLIDnDAnimation4.gif'
 import CLIDnDAnimation5 from '../../../resources/ProjectAnimations/CLIDnDAnimation5.gif'
 
+import gpComAnimation1 from '../../../resources/ProjectAnimations/gpComAnimation1.gif'
 import gpComAnimation2 from '../../../resources/ProjectAnimations/gpComAnimation2.gif'
 import gpComAnimation3 from '../../../resources/ProjectAnimations/gpComAnimation3.gif'
 
@@ -121,7 +122,8 @@ class FeaturesBlock {
         'Personal "Business Card"': {
           'details':[
               'My business card with contact information, links to my resume, blog, and social media',
-              'Skillset overview and a brief personal statement'
+              'Skillset overview and a brief personal statement',
+              'Professional Skills and Education w/ relevant coursework'
           ],
           'animation':gpComAnimation2
         },
@@ -133,6 +135,14 @@ class FeaturesBlock {
                 'As I complete more projects, more cards will be added. Stay tuned!'
             ],
             'animation':gpComAnimation3
+        },
+        'Adaptive Styling':{
+            'details':[
+                'Adaptive CSS updates webpage styling based on screen size',
+                'Settings maintain cleanliness and ease of use of the site across all media dimensions',
+                'Desktop, tablet and mobile support'
+            ],
+            'animation':gpComAnimation1
         }
     }
 

@@ -22,8 +22,8 @@ class TextBlocks {
     static gpCom = `
     GP.com: My personal landing page and résumé site.
     I built GP.com as a way to collect, organize and present my project work over the course of my software development journey. It was built using the React.js framework, with the Semantic-UI library and custom CSS for styling.
-    GP.com provides users with a compact, aesthetic interface to view my project history, while also providing access to other sites and resources providing reference for me (e.g. Resume, Blogs, Social Media, Github).
-    The site was built with a modular setup in mind, using the full potential of React Components to construct many unique pages from organized sub-components. Because of this, long-term maintenence of the site and updates with new projects, pages, etc. should prove very simple.
+    Rebuilt in January 2021, GP.com provides users with an adaptive, aesthetic interface to view my project history, while also providing access to other resources to reference my skills, experience, and history (e.g. Resume, Blogs, Social Media, Github).
+    The site was built with a modular setup in mind, using the full potential of React Components to construct many unique pages from reusable sub-components. Because of this, long-term maintenence of the site and updates with new projects, pages, etc. should prove very simple.
     As a result I hope to maintain this site as a constant, up-to-date reference of my work, and I hope you enjoy viewing it as much as I've enjoyed building it!
     `.trim()
 

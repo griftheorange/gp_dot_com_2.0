@@ -21,7 +21,7 @@ export default function(){
             <h2>Resumé <span>{'&'}</span> Social Media</h2>
             <Divider/>
             <div className="links">
-                <Button title={'Resume'} onClick={()=>{window.open('https://drive.google.com/file/d/16pIlbeaiZHVhvdLk_CnQyuoohcVZwgLn/view?usp=sharing')}} style={{margin:'auto'}} icon circular size='large' color='orange'>
+                <Button title={'Resume'} onClick={()=>{window.open('https://drive.google.com/file/d/1AvT3kZrUpgmRJuzFseemC3chBeZ1OEP3/view?usp=sharing')}} style={{margin:'auto'}} icon circular size='large' color='orange'>
                     <Icon name='download'/>
                 </Button>
                 <Button title={'LinkedIn'} onClick={()=>{window.open('https://www.linkedin.com/in/griffin-poole/')}} style={{margin:'auto'}} icon circular size='large' color='linkedin'>
