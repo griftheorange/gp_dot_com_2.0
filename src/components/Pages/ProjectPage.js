@@ -7,11 +7,9 @@ import ProjectFeatures from '../SupportComponents/ProjectPage/ProjectFeatures';
 import ProjectComponents from '../SupportComponents/ProjectPage/ProjectComponents';
 import Divider from '../SupportComponents/Divider';
 
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 export default function(props){
-
-    console.log(props.page.componentsBlock)
 
     let media = window.matchMedia('(max-width:1050px)')
     let mobileMedia = window.matchMedia('(max-width:700px)')
@@ -23,6 +21,11 @@ export default function(props){
     mobileMedia.addEventListener('change', (e) => {
         setMobileMatch(mobileMedia.matches)
     })
+
+    useEffect(() => {
+        const target = document.getElementById("pageJump");
+        target.scrollIntoView()
+    }, [])
 
     return (
         <div className="project-page-content-wrapper">

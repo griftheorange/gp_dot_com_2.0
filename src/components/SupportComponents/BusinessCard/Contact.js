@@ -18,7 +18,7 @@ export default function(){
                 </List.Item>
             </List>
             <Divider faded bottomSpacing={"3em"}/>
-            <h2>Résumé <span>{'&'}</span> Social Media</h2>
+            <h2>Resumé <span>{'&'}</span> Social Media</h2>
             <Divider/>
             <div className="links">
                 <Button title={'Resume'} onClick={()=>{window.open('https://drive.google.com/file/d/16pIlbeaiZHVhvdLk_CnQyuoohcVZwgLn/view?usp=sharing')}} style={{margin:'auto'}} icon circular size='large' color='orange'>

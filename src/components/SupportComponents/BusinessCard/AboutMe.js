@@ -5,7 +5,7 @@ import Divider from '../Divider'
 
 export default function(props){
 
-    let [dropped, setDropped] = useState(false)
+    let [dropped, setDropped] = useState(true)
 
     return(
         <div id='about-me' className='block'>
@@ -15,10 +15,10 @@ export default function(props){
                     <Accordion.Content active={dropped}>
                         <p>Hello and Welcome!</p>
                         <Divider faded/>
-                        <p>My name is Griffin Poole, and I am a full-stack web developer and software engineer aspiring to enter the wide world of data analysis.</p>
-                        <p>I began my career as a Neuroscience Researcher at Temple University and made the switch to coding full-time in October 2019.</p>
-                        <p>Since then, I have had the pleasure of working on many projects involving the traversal and analysis of large datasets, GUI development for data manipulation, graph generation, and so much more.</p>
-                        <p>I've assembled overviews of some of my personal favorites below. Feel free to have a look!</p>
+                        <p>My name is Griffin Poole, and I am a full-stack web developer and software engineer.</p>
+                        <p>I began my career as a Neuroscience Researcher and made the switch to coding full-time in October 2019.</p>
+                        <p>I have experience working on projects involving financial data management, GUI development, Seismic data tracking, and so much more.</p>
+                        <p>I've assembled some of my personal favorites below. Feel free to have a look!</p>
                     </Accordion.Content>
                 </Accordion>
             ) : (

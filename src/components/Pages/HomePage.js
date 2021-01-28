@@ -3,7 +3,7 @@ import BusinessCard from '../SupportComponents/BusinessCard'
 import ProjectCard from '../SupportComponents/ProjectCard'
 import ProjectDetails from '../SupportComponents/ProjectPage/ProjectDetails'
 
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 export default function(props){
     let mobileMedia = window.matchMedia('(max-width:500px)')
@@ -11,6 +11,11 @@ export default function(props){
     mobileMedia.addEventListener('change', (e) => {
         setMobileMatch(mobileMedia.matches)
     })
+
+    // useEffect(() => {
+    //     const target = document.getElementById("pageJump");
+    //     target.scrollIntoView()
+    // }, [])
 
     const projects = [
         {
@@ -69,7 +74,7 @@ export default function(props){
             <BusinessCard/>
         </Card>
         <Card label="Projects">
-            <ProjectCard projects={projects} accordion={mobileMatch} history={props.history}/>
+            <ProjectCard projects={projects} history={props.history}/>
         </Card>
         </>
     )

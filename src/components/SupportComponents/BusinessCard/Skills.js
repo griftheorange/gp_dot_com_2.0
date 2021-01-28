@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 
 import Divider from '../Divider'
 import {List, Accordion, Icon} from 'semantic-ui-react'
@@ -127,6 +127,10 @@ function accordionSkillsGenerator(skillHash, activeIndeces, setActiveIndeces){
 
 export default function(props){
     let [activeIndeces, setActiveIndeces] = useState({});
+
+    // useEffect(() => {
+    //     setActiveIndeces({...activeIndeces, "Professional Skills":true, "Education":true})
+    // }, [])
 
     let contentHash = {
         "Professional Skills":{

@@ -258,6 +258,10 @@
     /* font-size: 0.8em; */
 }
 
+.business-card-content-wrapper #skills .skills-list .skills-sub-block .accordion.ui {
+    margin-bottom:1.5em;
+}
+
 .business-card-content-wrapper #skills .skills-list .skills-sub-block .accordion.ui .title {
     padding-bottom:0;
     padding-top:0.5em;
