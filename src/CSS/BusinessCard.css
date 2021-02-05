@@ -258,6 +258,17 @@
     /* font-size: 0.8em; */
 }
 
+.business-card-content-wrapper #skills .skills-list .skills-sub-block h5 {
+    font-size: 0.8em;
+    margin-top:0.2em;
+    color:#56565a;
+}
+
+.business-card-content-wrapper #skills .skills-list .skills-sub-block h5 span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .business-card-content-wrapper #skills .skills-list .skills-sub-block .accordion.ui {
     margin-bottom:1.5em;
 }

@@ -11,6 +11,22 @@ function handleClick(key, activeIndeces, setActiveIndeces){
     }
 }
 
+function setSublistActive(topKey, keyArr, activeIndeces, setActiveIndeces){
+    let update = {...activeIndeces}
+    keyArr.forEach((key) => {
+        update[topKey+key] = true
+    })
+    setActiveIndeces(update)
+}
+
+function setSublistInactive(topKey, keyArr, activeIndeces, setActiveIndeces){
+    let update = {...activeIndeces}
+    keyArr.forEach((key) => {
+        update[topKey+key] = false
+    })
+    setActiveIndeces(update)
+}
+
 function titleGenerator(stringVal, icon=false){
     if(stringVal.includes("&")){
         let arr = stringVal.split("&");
@@ -40,9 +56,14 @@ function skillsGenerator(skillHash, activeIndeces, setActiveIndeces){
                                 return (
                                     <>
                                     <h3>{key1}</h3>
+                                    <h5><span onClick={() => {
+                                        setSublistActive(key1, Object.keys(value), activeIndeces, setActiveIndeces)
+                                    }}>Expand All</span> - <span onClick={() => {
+                                        setSublistInactive(key1, Object.keys(value), activeIndeces, setActiveIndeces)
+                                    }}>Hide All</span></h5>
                                     <Divider faded/>
                                     <Accordion>
-                                        {Object.entries(value).map((arr, index) => {
+                                        {Object.entries(value).map((arr) => {
                                             let [key2, value] = arr;
                                             let key = key1+key2;
                                             return (
@@ -90,7 +111,13 @@ function accordionSkillsGenerator(skillHash, activeIndeces, setActiveIndeces){
                                         return (
                                             <>
                                             <h3>{key1}</h3>
+                                            <h5><span onClick={() => {
+                                                setSublistActive(key1, Object.keys(value), activeIndeces, setActiveIndeces)
+                                            }}>Expand All</span> - <span onClick={() => {
+                                                setSublistInactive(key1, Object.keys(value), activeIndeces, setActiveIndeces)
+                                            }}>Hide All</span></h5>
                                             <Divider faded/>
+                                            
                                             <Accordion>
                                                 {Object.entries(value).map((arr, index) => {
                                                     let [key2, value] = arr;
@@ -127,10 +154,6 @@ function accordionSkillsGenerator(skillHash, activeIndeces, setActiveIndeces){
 
 export default function(props){
     let [activeIndeces, setActiveIndeces] = useState({});
-
-    // useEffect(() => {
-    //     setActiveIndeces({...activeIndeces, "Professional Skills":true, "Education":true})
-    // }, [])
 
     let contentHash = {
         "Professional Skills":{

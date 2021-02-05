@@ -191,6 +191,14 @@
     width:150px;
   }
 
+  .card-container .card-label.link {
+    cursor:pointer
+  }
+
+  .card-container .card-label.link:hover {
+    background-color: #5c6392;
+  }
+
   .card-container .card-label h3 {
     margin-top:0;
     margin-bottom:0;

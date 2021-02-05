@@ -19,6 +19,7 @@
     border-right: 1px solid #80808045;
     width:calc(100% / 4);
     display:flex;
+    cursor:pointer;
     padding:1.5em 1em 1.5em 2em;
     margin-bottom: 1em;
 }
