@@ -55,7 +55,7 @@ export default function(props){
             "detailsBlock":{
                 "title":"GP.com",
                 "description":"Personal Landing Page",
-                "frontendLink":'https://github.com/griftheorange/gp_dot_com',
+                "frontendLink":'https://github.com/griftheorange/gp_dot_com_2.0',
                 "backendLink":null,
                 "repo":null,
                 "videoDemo":null,

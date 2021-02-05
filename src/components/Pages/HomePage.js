@@ -12,10 +12,10 @@ export default function(props){
         setMobileMatch(mobileMedia.matches)
     })
 
-    // useEffect(() => {
-    //     const target = document.getElementById("pageJump");
-    //     target.scrollIntoView()
-    // }, [])
+    useEffect(() => {
+        const target = document.getElementById("pageJump");
+        target.scrollIntoView()
+    }, [])
 
     const projects = [
         {

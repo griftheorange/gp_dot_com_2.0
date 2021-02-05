@@ -1,7 +1,14 @@
 .App {
   text-align: center;
   background-color:#919dad;
+  min-height: 100em;
   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.App .copyright {
+  position:relative;
+  bottom:1em;
+  color:#3d4959;
 }
 
 .divider {
@@ -16,7 +23,12 @@
 .main-page-content-wrapper {
   position:relative;
   top: -25em;
-  /* animation: fadeInContent ease 3s, slideInContent ease 3s; */
+  /* animation: fadeInContent ease 2s; */
+}
+
+.main-page-content-wrapper.hidden {
+  visibility: hidden;
+  /* animation: fadeInContent ease 2s; */
 }
 
 @media (max-width:850px){
